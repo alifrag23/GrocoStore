@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".loader").fadeOut(1000, function () {
+  $(".loader").fadeOut(2000, function () {
     $("#loading").fadeOut(1000, function () {
       $("body").css("overflow", "auto");
       $("#loading").remove();
